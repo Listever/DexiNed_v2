@@ -1,0 +1,10 @@
+---
+project: DexiNed_v2
+model:
+  g_name: DexiNed   # generator name
+  g_loss: bdcn_loss # predict loss, may be bdcn_loss
+  d_name: patch_gan # may be no_gan,patch_gan,_double_gan,multi_scale
+  d_layer: 3        # discrimator layer num
+
+
+
